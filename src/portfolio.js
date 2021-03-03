@@ -18,7 +18,7 @@ const greeting = {
 const socialMediaLinks = {
   github: 'https://github.com/ShiroWorks?tab=repositories',
   linkedin: 'https://www.linkedin.com/in/vilmos-szab%C3%B3-4b4b74201/?locale=hu_HU',
-  gmail: 'vili8899s@gmail.com',
+  gmail: 'szabomediaweb@gmail.com',
   twitter: 'https://twitter.com/___Vili___',
   codepen: 'https://codepen.io/Shirox',
 };
@@ -199,49 +199,123 @@ const openSource = {
 
 
 
+
+
 const bigProjects = {
-  title: 'Munkáim',
-  subtitle: 'VÁLOGATÁS A MUNKÁIM KÖZÜL',
+  title: "Munkáim",
+  subtitle: "VÁLOGATÁS A MUNKÁIM KÖZÜL",
   projects: [
     {
-      image: require('./assets/images/shiroworks1.jpg'),
-      link: 'https://shiroworks.hu/',
+      image: require("./assets/images/shiroworks1.jpg"),
+      projectName: "ShiroWorks",
+      projectDesc: "Webfejlesztői weboldal",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://shiroworks.hu/"
+        }
+        
+      ]
     },
     {
-      image: require('./assets/images/oceanblue.jpg'),
-      link: 'https://oceanbluecss.netlify.app/index.html',
+      image: require("./assets/images/oceanblue.jpg"),
+      projectName: "OceanBlue",
+      projectDesc: "Reszponzív weboldal",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://oceanbluecss.netlify.app/index.html"
+        }
+      ]
     },
     {
-      image: require('./assets/images/tasty.jpg'),
-      link: 'https://tasty-foodcss.netlify.app/',
+      image: require("./assets/images/movies.jpg"),
+      projectName: "React Movies",
+      projectDesc: "Legnépszerűbb filmek, kereső funkcióval",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://popular-movies-movie-db.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/covidtracker.jpg'),
-      link: 'https://covid-tracker-reactjs.netlify.app/',
+      image: require("./assets/images/tasty.jpg"),
+      projectName: "Tasty Food",
+      projectDesc: "Reszponzív weboldal light/dark móddal",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://tasty-foodcss.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/airbnb.jpg'),
-      link: 'https://react-airbnbjs.netlify.app/',
+      image: require("./assets/images/githubjobs.jpg"),
+      projectName: "Job Search",
+      projectDesc: "Egy egyszerű álláskereső oldal, a github API segítségével",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://github-api-job-search.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/powerroom.jpg'),
-      link: 'https://the-power-room.netlify.app/',
+      image: require("./assets/images/powerroom.jpg"),
+      projectName: "Power room",
+      projectDesc: "Reszponzív landing page",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://the-power-room.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/movies.jpg'),
-      link: 'https://popular-movies-movie-db.netlify.app/',
+      image: require("./assets/images/covidtracker.jpg"),
+      projectName: "Covid Tracker",
+      projectDesc: "COVID-19 globális koronovarírus eseteinek a nyomonkövetése",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://covid-tracker-reactjs.netlify.app/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/githubjobs.jpg'),
-      link: 'https://github-api-job-search.netlify.app/',
+      image: require("./assets/images/readit.jpg"),
+      projectName: "Readit",
+      projectDesc: "Egy reddit klón",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/ShiroWorks/Readit-Backend"
+        },
+        {
+          name: "Demo",
+          url: "https://readit-client.herokuapp.com/"
+        }
+      ]
     },
     {
-      image: require('./assets/images/readit.jpg'),
-      link: 'https://github.com/ShiroWorks/Readit-Backend',
-    },
+      image: require("./assets/images/instagram.jpg"),
+      projectName: "Instagram",
+      projectDesc: "Egy instagram klón",
+      footerLink: [
+        {
+          name: "Github",
+          url: "https://github.com/ShiroWorks/React-Firebase-Instagram"
+        },
+        {
+          name: "Demo",
+          url: "https://instagram-5d0a9.web.app/login"
+        }
+      ]
+    }
   ],
+  display: true 
 };
-
 
 const achievementSection = {
   title: emoji('Kedvenc Könyveim 📚 '),
@@ -348,7 +422,7 @@ const contactInfo = {
   subtitle:
     'Van egy projekted, amit el szeretnél kezdeni, vagy csak kérdésed van? A postaládám mindenki számára nyitva áll.',
   number: '+3670 668-6562',
-  email_address: 'vili8899s@gmail.com',
+  email_address: 'szabomediaweb@gmail.com',
 };
 
 
