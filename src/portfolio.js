@@ -275,7 +275,7 @@ const bigProjects = {
     {
       image: require("./assets/images/covidtracker.jpg"),
       projectName: "Covid Tracker",
-      projectDesc: "COVID-19 globális koronovarírus eseteinek a nyomonkövetése",
+      projectDesc: "COVID-19 globális koronavírus eseteinek a nyomonkövetése",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
