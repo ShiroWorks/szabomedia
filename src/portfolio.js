@@ -262,13 +262,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/powerroom.jpg"),
-      projectName: "Power room",
-      projectDesc: "Reszponzív landing page",
+      image: require("./assets/images/appshow.jpg"),
+      projectName: "Appnu",
+      projectDesc: "Alkalmazás bemutató oldal",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://the-power-room.netlify.app/"
+          url: "https://dev-applandingpage.pantheonsite.io/"
         }
       ]
     },
@@ -284,32 +284,35 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/readit.jpg"),
-      projectName: "Readit",
-      projectDesc: "Egy reddit klón",
+      image: require("./assets/images/ecomm.jpg"),
+      projectName: "Backpack",
+      projectDesc: "Webáruház",
       footerLink: [
         {
-          name: "Github",
-          url: "https://github.com/ShiroWorks/Readit-Backend"
-        },
-        {
-          name: "Demo",
-          url: "https://readit-client.herokuapp.com/"
+          name: "Weboldal Megtekintése",
+          url: "https://dev-wuwuwuw.pantheonsite.io/"
         }
       ]
     },
     {
-      image: require("./assets/images/instagram.jpg"),
-      projectName: "Instagram",
-      projectDesc: "Egy instagram klón",
+      image: require("./assets/images/blog.jpg"),
+      projectName: "abc News",
+      projectDesc: "Blog",
       footerLink: [
         {
-          name: "Github",
-          url: "https://github.com/ShiroWorks/React-Firebase-Instagram"
-        },
+          name: "Weboldal Megtekintése",
+          url: "https://dev-myblogtest.pantheonsite.io/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/travel.jpg"),
+      projectName: "Travel",
+      projectDesc: "Utazási iroda",
+      footerLink: [
         {
-          name: "Demo",
-          url: "https://instagram-5d0a9.web.app/login"
+          name: "Weboldal Megtekintése",
+          url: "https://dev-hotelbooksite.pantheonsite.io/"
         }
       ]
     }
@@ -420,7 +423,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji('Keress Fel ☎️'),
   subtitle:
-    'Van egy projekted, amit el szeretnél kezdeni, vagy csak kérdésed van? A postaládám mindenki számára nyitva áll.',
+    'Van egy projekted, amit el szeretnél kezdeni, vagy csak kérdésed van? A postaládám mindenki számára nyitva áll',
   number: '+3670 668-6562',
   email_address: 'szabomediaweb@gmail.com',
 };
