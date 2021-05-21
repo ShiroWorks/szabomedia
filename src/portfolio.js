@@ -262,13 +262,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/appshow.jpg"),
-      projectName: "Appnu",
-      projectDesc: "Alkalmazás bemutató oldal",
+      image: require("./assets/images/gallery.jpg"),
+      projectName: "Galéria",
+      projectDesc: "Galéria a pixabay API segítségével",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://dev-applandingpage.pantheonsite.io/"
+          url: "https://react-pixabay-gallery.netlify.app/"
         }
       ]
     },
@@ -284,35 +284,35 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/ecomm.jpg"),
-      projectName: "Backpack",
-      projectDesc: "Webáruház",
+      image: require("./assets/images/pacman.jpg"),
+      projectName: "Pac-Man",
+      projectDesc: "Pac-Man játék",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://dev-wuwuwuw.pantheonsite.io/"
+          url: "https://pacman-js-sound.netlify.app/"
         }
       ]
     },
     {
-      image: require("./assets/images/blog.jpg"),
-      projectName: "abc News",
-      projectDesc: "Blog",
+      image: require("./assets/images/property.jpg"),
+      projectName: "Ingatlan",
+      projectDesc: "Weboldal a React Context API használatával",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://dev-myblogtest.pantheonsite.io/"
+          url: "https://my-real-estate-website.netlify.app/"
         }
       ]
     },
     {
-      image: require("./assets/images/travel.jpg"),
-      projectName: "Travel",
-      projectDesc: "Utazási iroda",
+      image: require("./assets/images/mymanga.jpg"),
+      projectName: "Mymanga",
+      projectDesc: "Egy weboldal, nodeJS, Express és MongoDB használatával",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://dev-hotelbooksite.pantheonsite.io/"
+          url: "https://my--manga.herokuapp.com/"
         }
       ]
     }
