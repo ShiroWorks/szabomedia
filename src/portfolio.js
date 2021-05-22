@@ -205,18 +205,7 @@ const bigProjects = {
   title: "Munkáim",
   subtitle: "VÁLOGATÁS A MUNKÁIM KÖZÜL",
   projects: [
-    {
-      image: require("./assets/images/shiroworks1.jpg"),
-      projectName: "ShiroWorks",
-      projectDesc: "Webfejlesztői weboldal",
-      footerLink: [
-        {
-          name: "Weboldal Megtekintése",
-          url: "https://shiroworks.hu/"
-        }
-        
-      ]
-    },
+   
     {
       image: require("./assets/images/oceanblue.jpg"),
       projectName: "OceanBlue",
@@ -292,6 +281,18 @@ const bigProjects = {
           name: "Weboldal Megtekintése",
           url: "https://pacman-js-sound.netlify.app/"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/shiroworks1.jpg"),
+      projectName: "ShiroWorks",
+      projectDesc: "Portfólió",
+      footerLink: [
+        {
+          name: "Weboldal Megtekintése",
+          url: "https://shiroworks.hu/"
+        }
+        
       ]
     },
     {
