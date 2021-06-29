@@ -7,7 +7,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 const renderLoader = () => <Loading />;
 const cantDisplayError =
-  "<div class='centerContent'><h2>Can't load? Check privacy protection settings</h2></div>";
+  "<div class='centerContent'><h2>Nem tölt be? Kapcsold ki az Adblock-ot, vagy más telepített bővítményed ami esetleg blokkolhatja</h2></div>";
 
 function timeOut() {
   setTimeout(function () {

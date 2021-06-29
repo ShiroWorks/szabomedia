@@ -3,7 +3,7 @@
 import emoji from 'react-easy-emoji';
 
 const greeting = {
- 
+
   username: 'Szabó Vilmos',
   title: 'Sziasztok, Vili vagyok',
   subTitle: emoji(
@@ -43,7 +43,7 @@ const skillsSection = {
     ),
   ],
 
- 
+
 
   softwareSkills: [
     {
@@ -102,14 +102,14 @@ const skillsSection = {
       skillName: 'Wordpress',
       fontAwesomeClassname: 'icon-wordpress',
     }
-   
+
   ],
 };
 
 
 
 const educationInfo = {
-  viewEducation: false, 
+  viewEducation: false,
   schools: [
     {
       schoolName: '',
@@ -137,11 +137,11 @@ const educationInfo = {
 
 
 const techStack = {
-  viewSkillBars: true, 
+  viewSkillBars: true,
   experience: [
     {
-      Stack: 'Frontend/Dizájn', 
-      progressPercentage: '90%', 
+      Stack: 'Frontend/Dizájn',
+      progressPercentage: '90%',
     },
     {
       Stack: 'Backend',
@@ -157,7 +157,7 @@ const techStack = {
 
 
 const workExperiences = {
-  viewExperiences: false, 
+  viewExperiences: false,
   experience: [
     {
       role: '',
@@ -193,8 +193,8 @@ const workExperiences = {
 
 const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
-  githubUserName: 'ShiroWorks', 
-  showGithubProfile: 'true', 
+  githubUserName: 'ShiroWorks',
+  showGithubProfile: 'true',
 };
 
 
@@ -205,7 +205,7 @@ const bigProjects = {
   title: "Munkáim",
   subtitle: "VÁLOGATÁS A MUNKÁIM KÖZÜL",
   projects: [
-   
+
     {
       image: require("./assets/images/oceanblue.jpg"),
       projectName: "OceanBlue",
@@ -240,13 +240,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/githubjobs.jpg"),
-      projectName: "Job Search",
-      projectDesc: "Egy egyszerű álláskereső oldal, a github API segítségével",
+      image: require("./assets/images/12234.jpg"),
+      projectName: "Instagram Klón",
+      projectDesc: "Egy egyszerű Instagram klón, React, Firebase és TailwindCSS segítségével",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://github-api-job-search.netlify.app/"
+          url: "https://instagram-5d0a9.web.app/login"
         }
       ]
     },
@@ -292,7 +292,7 @@ const bigProjects = {
           name: "Weboldal Megtekintése",
           url: "https://shiroworks.hu/"
         }
-        
+
       ]
     },
     {
@@ -318,7 +318,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true 
+  display: true
 };
 
 const achievementSection = {
@@ -338,7 +338,7 @@ const achievementSection = {
           url:
             'https://eloquentjavascript.net/',
         }
-        
+
       ],
     },
     {
@@ -361,7 +361,7 @@ const achievementSection = {
       image: require('./assets/images/ydkjs.jpg'),
       footerLink: [
         { name: 'Amazon', url: 'https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670/ref=pd_sbs_1?pd_rd_w=wHdci&pf_rd_p=3ec6a47e-bf65-49f8-80f7-0d7c7c7ce2ca&pf_rd_r=6K8TVCVW71RVC6R3BGRJ&pd_rd_r=22b59947-fda8-4f42-9fdc-7ed84e381854&pd_rd_wg=OMvuf&pd_rd_i=0735619670&psc=1' },
-      
+
       ],
     },
   ],
@@ -411,11 +411,11 @@ const talkSection = {
 
 
 const podcastSection = {
-  viewPodcastSection:false,
+  viewPodcastSection: false,
   title: '',
   subtitle: '',
 
-  
+
   podcast: [
     '',
   ],
