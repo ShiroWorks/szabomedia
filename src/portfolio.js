@@ -240,14 +240,15 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/12234.jpg"),
-      projectName: "Instagram Klón",
-      projectDesc: "Egy egyszerű Instagram klón, React, Firebase és TailwindCSS segítségével",
+      image: require("./assets/images/reactLandingPage.gif"),
+      projectName: "Dolla",
+      projectDesc: "React Landing Page \"Smooth Scroll'-al",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://instagram-5d0a9.web.app/login"
+          url: "https://react-landing-page-smooth-scroll.netlify.app/"
         }
+        
       ]
     },
     {
@@ -262,13 +263,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/covidtracker.jpg"),
-      projectName: "Covid Tracker",
-      projectDesc: "COVID-19 globális koronavírus eseteinek a nyomonkövetése",
+      image: require("./assets/images/restaurantLandingPage.png"),
+      projectName: "Restaurant Landing Page",
+      projectDesc: "Egy egyszerű étterem landing page",
       footerLink: [
         {
           name: "Weboldal Megtekintése",
-          url: "https://covid-tracker-reactjs.netlify.app/"
+          url: "https://react-restaurant-landing-page.netlify.app/"
         }
       ]
     },
@@ -284,15 +285,14 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/shiroworks1.jpg"),
-      projectName: "ShiroWorks",
-      projectDesc: "Portfólió",
+      image: require("./assets/images/reactDashboard.png"),
+      projectName: "Admin Dashboard",
+      projectDesc: "React Admin Dashboard App témával, táblázatokkal, diagramokkal, naptárral, kanbannal és egyebekkel",
       footerLink: [
         {
-          name: "Weboldal Megtekintése",
-          url: "https://shiroworks.hu/"
+          name: "View Website",
+          url: "https://react-admin-dashboard-app.netlify.app/"
         }
-
       ]
     },
     {
@@ -307,13 +307,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/mymanga.jpg"),
-      projectName: "Mymanga",
-      projectDesc: "Egy weboldal, nodeJS, Express és MongoDB használatával",
+      image: require("./assets/images/fitnessapp.png"),
+      projectName: "Fitness App",
+      projectDesc: "React Fitness Application",
       footerLink: [
         {
-          name: "Weboldal Megtekintése",
-          url: "https://my--manga.herokuapp.com/"
+          name: "View Website",
+          url: "https://react-mui-fitness-app.netlify.app/"
         }
       ]
     }
