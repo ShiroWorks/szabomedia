@@ -31,7 +31,7 @@ const skillsSection = {
     'ŐRÜLT FULL STACK WEBFEJLESZTŐ, AKI MINDEN TECH STACK-OT SZERETNE FELFEDEZNI',
   skills: [
     emoji(
-      '🚀 Rendkívül interaktív Felhasználói Felület fejlesztése web és mobil applikációkhoz'
+      '⚡ Rendkívül interaktív Felhasználói Felület fejlesztése web és mobil applikációkhoz'
     ),
     emoji('⚡ Progresszív webes alkalmazások ( PWA ) normál és SPA Stack-ban'),
     emoji(
