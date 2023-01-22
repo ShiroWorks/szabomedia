@@ -6,6 +6,7 @@ import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import emoji from "react-easy-emoji";
 import StyleContext from "../../contexts/StyleContext";
+import Twemoji from 'react-twemoji';
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -20,7 +21,10 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+               
+                    <Twemoji noWrapper={true} options={{ className: 'twemoji' }}>
+                      <span className="wave-emoji">👋</span>
+                    </Twemoji>
               </h1>
               <p
                 className={
@@ -29,7 +33,9 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+              Egy szenvedélyes full stack webfejlesztő  <Twemoji noWrapper={true} options={{ className: 'twemojirocket', size :'40x40' }}>
+                      <span className="emoji">🚀 </span>
+                    </Twemoji>aki tapasztalattal rendelkezik webes alkalmazások készítésében JavaScript / Reactjs / Nodejs / PHP és még sok más könyvtár / keretrendszer használatával.
               </p>
               <SocialMedia />
               <div className="button-greeting-div">

@@ -4,6 +4,7 @@ import SoftwareSkill from "../../components/softwareSkills/SoftwareSkill";
 import { skillsSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import Twemoji from 'react-twemoji';
 
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
@@ -45,7 +46,7 @@ export default function Skills() {
                         : "subTitle skills-text"
                     }
                   >
-                    {skills}
+                    {"⚡ " + skills}
                   </p>
                 );
               })}

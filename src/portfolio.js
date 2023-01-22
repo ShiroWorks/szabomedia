@@ -31,15 +31,15 @@ const skillsSection = {
     'ŐRÜLT FULL STACK WEBFEJLESZTŐ, AKI MINDEN TECH STACK-OT SZERETNE FELFEDEZNI',
   skills: [
     emoji(
-      '⚡ Rendkívül interaktív Felhasználói Felület fejlesztése web és mobil applikációkhoz'
+      'Rendkívül interaktív Felhasználói Felület fejlesztése web és mobil applikációkhoz'
     ),
-    emoji('⚡ Progresszív webes alkalmazások ( PWA ) normál és SPA Stack-ban'),
+    emoji('Progresszív webes alkalmazások ( PWA ) normál és SPA Stack-ban'),
     emoji(
-      '⚡ Harmadik féltől származó szolgáltatások, mint például a Firebase integrálása'
+      'Harmadik féltől származó szolgáltatások, mint például a Firebase integrálása'
     ),
-    emoji('⚡ E-kereskedelmi platformok, fizetési kapuk, egyedi terméksablonok integrációja'
+    emoji('E-kereskedelmi platformok, fizetési kapuk, egyedi terméksablonok integrációja'
     ),
-    emoji('⚡ Szeretnéd javítani a webhelyed teljesítményét, SEO-t vagy a felhasználói élményt? ↪ Kérj ingyenes webhely felmérést'
+    emoji('Szeretnéd javítani a webhelyed teljesítményét, SEO-t vagy a felhasználói élményt? \n Kérj ingyenes webhely felmérést'
     ),
   ],
 
@@ -322,7 +322,7 @@ const bigProjects = {
 };
 
 const achievementSection = {
-  title: emoji('Kedvenc Könyveim 📚 '),
+  title: 'Kedvenc Könyveim 📚 ',
   subtitle:
     'Pár Darab A Kedvenc Könyveim Közül',
 
@@ -422,7 +422,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji('Keress Fel ☎️'),
+  title: 'Keress Fel ☎️',
   subtitle:
     'Van egy projekted, amit el szeretnél kezdeni, vagy csak kérdésed van? A postaládám mindenki számára nyitva áll',
   number: '+3670 668-6562',

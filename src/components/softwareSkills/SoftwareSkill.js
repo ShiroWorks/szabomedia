@@ -1,6 +1,7 @@
 import React from "react";
 import "./SoftwareSkill.css";
 import { skillsSection } from "../../portfolio";
+import Twemoji from 'react-twemoji';
 
 export default function SoftwareSkill() {
   return (

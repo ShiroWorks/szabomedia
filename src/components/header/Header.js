@@ -5,10 +5,14 @@ import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import { greeting, workExperiences } from "../../portfolio";
 
+
 function Header() {
   const { isDark } = useContext(StyleContext);
   const exp = workExperiences.viewExperiences;
+ 
+   
   return (
+
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
         <a href="" className="logo">
@@ -45,6 +49,7 @@ function Header() {
          
           <li>
             <a href="#contact">Kapcsolat</a>
+           
           </li>
           <li>
             <a>
