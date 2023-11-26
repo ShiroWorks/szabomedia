@@ -377,13 +377,13 @@ const blogSection = {
   blogs: [
     {
       url:
-        'https://www.szabovilmos.hu/cikkek/hogyan-rakd-ossze-a-sajat-mernokinformatikai-vegzettseged-online-ingyert',
+        'https://szabovilmos.netlify.app/cikkek/hogyan-rakd-ossze-a-sajat-mernokinformatikai-vegzettseged-online-ingyert',
       title: 'Hogyan rakd össze a saját mérnökinformatikai végzettséged online, ingyért',
       description:
         'Manapság egyre több cégnél, amik fejlesztéssel foglalkoznak nem elvárás a jelentkezésnél, hogy legyen végzettséged. Már nagyobb cégekhez is, mint például a Google jelentkezhetsz végzettség nélkül. Ettől függetlenül, fel kell tudnod mutatnod, hogy eddig milyen applikációkat vagy weboldalakat készítettél, és be kell tudnod bizonyítanod, hogy tudásban sem vagy rosszabb annál mint aki egyetemen végzett.',
     },
     {
-      url: 'https://www.szabovilmos.hu/cikkek/css4',
+      url: 'https://szabovilmos.netlify.app/cikkek/css4',
       title: 'CSS4',
       description:
         'Mostanában találkoztam egy bejegyzéssel Peter-Paul Koch blogján, aminek a címe CSS4 is here!. Néha azt látom, hogy az emberek időről időre a CSS4-t használják, hogy kattintásokat szerezzenek, és ez kicsit bosszant engem, szóval általában nem törődök velük, de valamiért úgy döntöttem, hogy erre a cikkre rákattintok és megnézem, hogy miről szól.',
